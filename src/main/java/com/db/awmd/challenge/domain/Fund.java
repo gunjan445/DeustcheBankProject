@@ -2,6 +2,9 @@ package com.db.awmd.challenge.domain;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import io.swagger.annotations.ApiModelProperty;
+
 import java.math.BigDecimal;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -14,14 +17,17 @@ public class Fund {
 
   @NotNull
   @NotEmpty
+  @ApiModelProperty(notes = " Account which will be deducted")
   private final String fromAccountId;
   
   @NotNull
   @NotEmpty
+  @ApiModelProperty(notes = " Account which will be credited")
   private final String toAccountId;
   
   @NotNull
   @Min(value = 0, message = "Balance must be positive.")
+  @ApiModelProperty(notes = " Account Balance")
   private BigDecimal balance;
 
   public Fund(String fromAccountId,String toAccountId) {

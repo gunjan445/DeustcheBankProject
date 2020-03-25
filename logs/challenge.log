@@ -1,0 +1,263 @@
+2020-03-25 16:35:18,173 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Starting DevChallengeApplication on DESKTOP-8NNLHQN with PID 17976 (C:\Users\GunjanKumar\Downloads\challenge\challenge\bin\main started by GunjanKumar in C:\Users\GunjanKumar\Downloads\challenge\challenge)
+2020-03-25 16:35:18,176 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : No active profile set, falling back to default profiles: default
+2020-03-25 16:35:18,222 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75f32542: startup date [Wed Mar 25 16:35:18 IST 2020]; root of context hierarchy
+2020-03-25 16:35:19,876 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080 (http)
+2020-03-25 16:35:19,886 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-03-25 16:35:19,887 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-03-25 16:35:20,170 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:35:20,288 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-25 16:35:20,292 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-25 16:35:20,293 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-25 16:35:20,293 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-25 16:35:20,293 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-25 16:35:20,814 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-03-25 16:35:20,864 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080 (http)
+2020-03-25 16:35:20,869 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Started DevChallengeApplication in 3.061 seconds (JVM running for 3.53)
+2020-03-25 16:39:00,656 INFO  [http-nio-18080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-25 16:39:00,929 INFO  [http-nio-18080-exec-1] com.db.awmd.challenge.web.AccountsController : Creating account Account(accountId=2, balance=10000)
+2020-03-25 18:27:50,208 INFO  [http-nio-18080-exec-3] com.db.awmd.challenge.web.AccountsController : Retrieving account for id 1
+2020-03-25 18:52:43,945 INFO  [http-nio-18080-exec-5] com.db.awmd.challenge.web.AccountsController : Creating account Account(accountId=4, balance=10000)
+2020-03-25 18:52:53,109 INFO  [http-nio-18080-exec-6] com.db.awmd.challenge.web.AccountsController : Creating account Account(accountId=6, balance=10000)
+2020-03-25 18:57:57,283 INFO  [http-nio-18080-exec-8] com.db.awmd.challenge.web.AccountsController : Creating account Account(accountId=6, balance=10000)
+2020-03-25 19:01:10,965 INFO  [http-nio-18080-exec-9] com.db.awmd.challenge.web.AccountsController : Creating account Account(accountId=6, balance=10000)
+2020-03-25 23:51:54,450 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Starting DevChallengeApplication on DESKTOP-8NNLHQN with PID 8916 (C:\Users\GunjanKumar\Downloads\challenge\challenge\bin\main started by GunjanKumar in C:\Users\GunjanKumar\Downloads\challenge\challenge)
+2020-03-25 23:51:54,453 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : No active profile set, falling back to default profiles: default
+2020-03-25 23:51:54,503 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b227d8d: startup date [Wed Mar 25 23:51:54 IST 2020]; root of context hierarchy
+2020-03-25 23:51:56,485 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080 (http)
+2020-03-25 23:51:56,496 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-03-25 23:51:56,497 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-03-25 23:51:56,842 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-03-25 23:51:56,950 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-25 23:51:56,954 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-25 23:51:56,954 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-25 23:51:56,954 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-25 23:51:56,954 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-25 23:51:57,446 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-25 23:51:57,824 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-03-25 23:51:57,834 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2020-03-25 23:51:57,834 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-03-25 23:51:57,859 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-03-25 23:51:57,888 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-03-25 23:51:57,960 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080 (http)
+2020-03-25 23:51:57,966 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Started DevChallengeApplication in 3.88 seconds (JVM running for 4.336)
+2020-03-25 23:53:56,285 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Starting DevChallengeApplication on DESKTOP-8NNLHQN with PID 15888 (C:\Users\GunjanKumar\Downloads\challenge\challenge\bin\main started by GunjanKumar in C:\Users\GunjanKumar\Downloads\challenge\challenge)
+2020-03-25 23:53:56,288 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : No active profile set, falling back to default profiles: default
+2020-03-25 23:53:56,333 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b227d8d: startup date [Wed Mar 25 23:53:56 IST 2020]; root of context hierarchy
+2020-03-25 23:53:58,221 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080 (http)
+2020-03-25 23:53:58,232 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-03-25 23:53:58,233 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-03-25 23:53:58,376 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-03-25 23:53:58,491 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-25 23:53:58,495 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-25 23:53:58,496 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-25 23:53:58,496 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-25 23:53:58,496 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-25 23:53:58,992 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-25 23:53:59,347 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-03-25 23:53:59,356 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2020-03-25 23:53:59,356 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-03-25 23:53:59,385 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-03-25 23:53:59,417 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-03-25 23:53:59,486 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080 (http)
+2020-03-25 23:53:59,490 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Started DevChallengeApplication in 3.569 seconds (JVM running for 3.964)
+2020-03-25 23:55:17,109 INFO  [http-nio-18080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-26 00:00:46,262 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Starting DevChallengeApplication on DESKTOP-8NNLHQN with PID 20116 (C:\Users\GunjanKumar\Downloads\challenge\challenge\bin\main started by GunjanKumar in C:\Users\GunjanKumar\Downloads\challenge\challenge)
+2020-03-26 00:00:46,265 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : No active profile set, falling back to default profiles: default
+2020-03-26 00:00:46,311 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b227d8d: startup date [Thu Mar 26 00:00:46 IST 2020]; root of context hierarchy
+2020-03-26 00:00:48,299 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080 (http)
+2020-03-26 00:00:48,310 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-03-26 00:00:48,311 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-03-26 00:00:48,585 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-03-26 00:00:48,700 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-26 00:00:48,704 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-26 00:00:48,704 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-26 00:00:48,704 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-26 00:00:48,704 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-26 00:00:49,202 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-26 00:00:49,573 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-03-26 00:00:49,581 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2020-03-26 00:00:49,582 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-03-26 00:00:49,608 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-03-26 00:00:49,634 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-03-26 00:00:49,699 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080 (http)
+2020-03-26 00:00:49,703 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Started DevChallengeApplication in 3.793 seconds (JVM running for 4.237)
+2020-03-26 00:01:05,391 INFO  [http-nio-18080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-26 00:04:54,300 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Starting DevChallengeApplication on DESKTOP-8NNLHQN with PID 11344 (C:\Users\GunjanKumar\Downloads\challenge\challenge\bin\main started by GunjanKumar in C:\Users\GunjanKumar\Downloads\challenge\challenge)
+2020-03-26 00:04:54,304 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : No active profile set, falling back to default profiles: default
+2020-03-26 00:04:54,345 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b227d8d: startup date [Thu Mar 26 00:04:54 IST 2020]; root of context hierarchy
+2020-03-26 00:04:56,209 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080 (http)
+2020-03-26 00:04:56,219 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-03-26 00:04:56,220 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-03-26 00:04:56,341 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-03-26 00:04:56,452 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-26 00:04:56,455 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-26 00:04:56,456 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-26 00:04:56,456 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-26 00:04:56,456 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-26 00:04:56,957 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-26 00:04:57,328 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-03-26 00:04:57,334 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2020-03-26 00:04:57,334 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-03-26 00:04:57,355 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-03-26 00:04:57,380 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-03-26 00:04:57,415 ERROR [main] org.apache.coyote.http11.Http11NioProtocol : Failed to start end point associated with ProtocolHandler ["http-nio-18080"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.db.awmd.challenge.DevChallengeApplication.main(DevChallengeApplication.java:10)
+2020-03-26 00:04:57,416 ERROR [main] org.apache.catalina.core.StandardService : Failed to start connector [Connector[HTTP/1.1-18080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-18080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.db.awmd.challenge.DevChallengeApplication.main(DevChallengeApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+2020-03-26 00:04:57,423 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2020-03-26 00:04:57,437 INFO  [main] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2020-03-26 00:04:57,440 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 18080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 18080, or configure this application to listen on another port.
+
+2020-03-26 00:04:57,441 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b227d8d: startup date [Thu Mar 26 00:04:54 IST 2020]; root of context hierarchy
+2020-03-26 00:04:57,442 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Stopping beans in phase 2147483647
+2020-03-26 00:04:57,443 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2020-03-26 00:05:35,472 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Starting DevChallengeApplication on DESKTOP-8NNLHQN with PID 22536 (C:\Users\GunjanKumar\Downloads\challenge\challenge\bin\main started by GunjanKumar in C:\Users\GunjanKumar\Downloads\challenge\challenge)
+2020-03-26 00:05:35,475 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : No active profile set, falling back to default profiles: default
+2020-03-26 00:05:35,522 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b227d8d: startup date [Thu Mar 26 00:05:35 IST 2020]; root of context hierarchy
+2020-03-26 00:05:37,387 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080 (http)
+2020-03-26 00:05:37,398 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-03-26 00:05:37,399 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-03-26 00:05:37,531 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-03-26 00:05:37,643 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-26 00:05:37,647 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-26 00:05:37,647 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-26 00:05:37,647 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-26 00:05:37,647 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-26 00:05:38,157 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-26 00:05:38,513 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-03-26 00:05:38,519 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2020-03-26 00:05:38,519 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-03-26 00:05:38,540 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-03-26 00:05:38,566 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-03-26 00:05:38,622 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080 (http)
+2020-03-26 00:05:38,626 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Started DevChallengeApplication in 3.509 seconds (JVM running for 3.909)
+2020-03-26 00:05:46,530 INFO  [http-nio-18080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-26 00:08:06,178 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Starting DevChallengeApplication on DESKTOP-8NNLHQN with PID 20504 (C:\Users\GunjanKumar\Downloads\challenge\challenge\bin\main started by GunjanKumar in C:\Users\GunjanKumar\Downloads\challenge\challenge)
+2020-03-26 00:08:06,181 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : No active profile set, falling back to default profiles: default
+2020-03-26 00:08:06,228 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b227d8d: startup date [Thu Mar 26 00:08:06 IST 2020]; root of context hierarchy
+2020-03-26 00:08:08,081 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080 (http)
+2020-03-26 00:08:08,092 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-03-26 00:08:08,093 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-03-26 00:08:08,227 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-03-26 00:08:08,337 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-26 00:08:08,341 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-26 00:08:08,341 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-26 00:08:08,341 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-26 00:08:08,341 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-26 00:08:08,837 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-26 00:08:09,178 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-03-26 00:08:09,186 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2020-03-26 00:08:09,186 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-03-26 00:08:09,212 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-03-26 00:08:09,238 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-03-26 00:08:09,380 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080 (http)
+2020-03-26 00:08:09,385 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Started DevChallengeApplication in 3.568 seconds (JVM running for 3.964)
+2020-03-26 00:08:16,509 INFO  [http-nio-18080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-26 00:14:02,418 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Starting DevChallengeApplication on DESKTOP-8NNLHQN with PID 2400 (C:\Users\GunjanKumar\Downloads\challenge\challenge\bin\main started by GunjanKumar in C:\Users\GunjanKumar\Downloads\challenge\challenge)
+2020-03-26 00:14:02,421 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : No active profile set, falling back to default profiles: default
+2020-03-26 00:14:02,469 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b227d8d: startup date [Thu Mar 26 00:14:02 IST 2020]; root of context hierarchy
+2020-03-26 00:14:04,396 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080 (http)
+2020-03-26 00:14:04,407 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-03-26 00:14:04,408 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-03-26 00:14:04,680 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-03-26 00:14:04,789 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-26 00:14:04,793 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-26 00:14:04,793 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-26 00:14:04,793 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-26 00:14:04,793 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-26 00:14:05,301 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-26 00:14:05,620 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-03-26 00:14:05,626 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2020-03-26 00:14:05,626 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-03-26 00:14:05,646 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-03-26 00:14:05,672 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-03-26 00:14:05,860 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080 (http)
+2020-03-26 00:14:05,865 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Started DevChallengeApplication in 3.808 seconds (JVM running for 4.25)
+2020-03-26 00:14:12,840 INFO  [http-nio-18080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-26 00:22:00,781 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Starting DevChallengeApplication on DESKTOP-8NNLHQN with PID 7048 (C:\Users\GunjanKumar\Downloads\challenge\challenge\bin\main started by GunjanKumar in C:\Users\GunjanKumar\Downloads\challenge\challenge)
+2020-03-26 00:22:00,785 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : No active profile set, falling back to default profiles: default
+2020-03-26 00:22:00,834 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b227d8d: startup date [Thu Mar 26 00:22:00 IST 2020]; root of context hierarchy
+2020-03-26 00:22:02,680 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 18080 (http)
+2020-03-26 00:22:02,690 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-03-26 00:22:02,691 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-03-26 00:22:02,813 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-03-26 00:22:02,926 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-26 00:22:02,930 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-26 00:22:02,931 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-26 00:22:02,931 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-26 00:22:02,931 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-26 00:22:03,428 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-26 00:22:03,800 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-03-26 00:22:03,807 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2020-03-26 00:22:03,807 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2020-03-26 00:22:03,828 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-03-26 00:22:03,855 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2020-03-26 00:22:04,058 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 18080 (http)
+2020-03-26 00:22:04,062 INFO  [main] com.db.awmd.challenge.DevChallengeApplication : Started DevChallengeApplication in 3.642 seconds (JVM running for 4.04)
+2020-03-26 00:22:19,218 INFO  [http-nio-18080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'

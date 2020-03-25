@@ -20,11 +20,16 @@ import com.db.awmd.challenge.exception.InvalidAmountException;
 import com.db.awmd.challenge.service.AccountsService;
 import com.db.awmd.challenge.service.NotificationService;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @RequestMapping("/v1/transfer")
 @Slf4j
+@Api(value = "Fund Transfer Resource")
 public class FundTransferController {
 
 	private final AccountsService accountsService;
@@ -37,7 +42,13 @@ public class FundTransferController {
 	public FundTransferController(AccountsService accountsService) {
 		this.accountsService = accountsService;
 	}
-
+	 @ApiOperation(value = "Transfer the funds")
+	    @ApiResponses(
+	            value = {
+	                    @ApiResponse(code = 100, message = "100 is the message"),
+	                    @ApiResponse(code = 200, message = "Successful Hello World")
+	            }
+    )
 	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Object> transferFunds(@RequestBody @Valid Fund fund) throws InterruptedException {
 		log.info("Tranfer fund {}", fund);
