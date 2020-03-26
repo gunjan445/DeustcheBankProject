@@ -1,6 +1,8 @@
 # DeustcheBankProject
 challange code test
 
+#API Documentation
+http://localhost:18080/swagger-ui.html
 
 #create contact using the url
 http://localhost:18080/v1/accounts
