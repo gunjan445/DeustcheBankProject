@@ -1,5 +1,6 @@
 package com.db.awmd.challenge.web;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -14,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.db.awmd.challenge.domain.Account;
 import com.db.awmd.challenge.domain.Fund;
 import com.db.awmd.challenge.exception.InvalidAmountException;
 import com.db.awmd.challenge.service.AccountsService;
@@ -33,10 +33,7 @@ import lombok.extern.slf4j.Slf4j;
 public class FundTransferController {
 
 	private final AccountsService accountsService;
-	@Autowired
-	private NotificationService notificationService;
 	private final ReentrantLock lock = new ReentrantLock();
-	private static AtomicBoolean atomicBoolean = new AtomicBoolean(false);
 
 	@Autowired
 	public FundTransferController(AccountsService accountsService) {
@@ -50,25 +47,13 @@ public class FundTransferController {
 	            }
     )
 	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<Object> transferFunds(@RequestBody @Valid Fund fund) throws InterruptedException {
+	public ResponseEntity<Object> transferFunds(@RequestBody @Valid Fund fund) {
 		log.info("Tranfer fund {}", fund);
-		lock.lock();
 		try {
-			if (this.accountsService.updateFromAccount(fund.getFromAccountId(), fund.getBalance()) != null) {
-				atomicBoolean.set(true);
-				String transferDescription = "Amount " + fund.getBalance()
-						+ " is debited from your account and is transferred to " + fund.getToAccountId();
-				Account account = this.accountsService.getAccount(fund.getFromAccountId());
-				notificationService.notifyAboutTransfer(account, transferDescription);
-			}
-			if (atomicBoolean.get())
-				this.accountsService.updateToAccount(fund.getToAccountId(), fund.getBalance());
-			String transferDescription = "Amount " + fund.getBalance()
-					+ " is credited in your account and is transferred from " + fund.getFromAccountId();
-			Account account = this.accountsService.getAccount(fund.getFromAccountId());
-			notificationService.notifyAboutTransfer(account, transferDescription);
-		} catch (InvalidAmountException inae) {
-			return new ResponseEntity<>(inae.getMessage(), HttpStatus.BAD_REQUEST);
+			lock.tryLock(300, TimeUnit.SECONDS);
+			accountsService.transferFund(fund);
+		} catch (InvalidAmountException | InterruptedException inae) {
+			return new ResponseEntity<>(inae.getMessage(), HttpStatus.BAD_REQUEST); 
 		} finally {
 			lock.unlock();
 		}
